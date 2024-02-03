@@ -56,3 +56,4 @@ C:\Users\epariona\Desktop\vaxi-LeerData\vaxi-LeerData\bin\Debug\net6.0\runtimes\
 C:\Users\epariona\Desktop\vaxi-LeerData\vaxi-LeerData\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\epariona\Desktop\vaxi-LeerData\vaxi-LeerData\obj\Debug\net6.0\vaxi-LeerData.csproj.AssemblyReference.cache
 C:\Users\epariona\Desktop\vaxi-LeerData\vaxi-LeerData\obj\Debug\net6.0\vaxi-LeerData.csproj.CopyComplete
+C:\Users\epariona\Desktop\vaxi-LeerData\vaxi-LeerData\obj\Debug\net6.0\vaxi-LeerData.sourcelink.json
