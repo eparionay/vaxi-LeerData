@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vaxi-LeerData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19786b39d6ebb99eae80befe6ed72fab10c34af3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3deace2d578eb68ed28525020e53da134784ad9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("vaxi-LeerData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vaxi-LeerData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

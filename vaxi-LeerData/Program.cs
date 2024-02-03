@@ -26,8 +26,8 @@ namespace LeerData
                 }
                 */
                 //asnotrackgines para no tener en cache la data que se devuelva 
+                /*
                 var cursos = db.Curso.Include(c=>c.ComentarioLista).AsNoTracking();
-
                 foreach (var item in cursos)
                 {
                     Console.WriteLine("Nombre curso " + item.Titulo);
@@ -37,6 +37,23 @@ namespace LeerData
                     }
                     Console.WriteLine("****************+");
                 }
+                */
+
+                var cursos = db.Curso.Include(c => c.InstructorLinea)
+                    .ThenInclude(ci => ci.Instructor);
+
+                foreach (var curso in cursos)
+                {
+                    Console.WriteLine(curso.Titulo);
+                    foreach (var linea in curso.InstructorLinea)
+                    {
+                        Console.WriteLine(linea.Instructor.Nombre);
+                        Console.WriteLine(linea.Instructor.Apellidos);
+
+                    }
+                    Console.WriteLine("*********************");
+                }
+
 
 
             }
