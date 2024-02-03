@@ -11,7 +11,7 @@
         public Precio PrecioPromocion { get; set; }
         //Relacion 1 a m con tabla comentario
         public ICollection<Comentario> ComentarioLista { get; set; }
-
-
+        //Relacion n a m 
+        public ICollection<CursoInstructor> InstructorLinea { get; set; }
     }
 }
